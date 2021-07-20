@@ -1,9 +1,11 @@
 
 
+
 html,body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     max-height: 100vh;
     font-family: "Poppins", sans-serif;
 }
@@ -18,26 +20,32 @@ body{
 
 @-webkit-keyframes move_wave {
     0% {
-        transform: translateX(0) translateZ(0) scaleY(1)
+        -webkit-transform: translateX(0) translateZ(0) scaleY(1);
+                transform: translateX(0) translateZ(0) scaleY(1)
     }
     50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+        -webkit-transform: translateX(-25%) translateZ(0) scaleY(0.55);
+                transform: translateX(-25%) translateZ(0) scaleY(0.55)
     }
     100% {
-        transform: translateX(-50%) translateZ(0) scaleY(1)
+        -webkit-transform: translateX(-50%) translateZ(0) scaleY(1);
+                transform: translateX(-50%) translateZ(0) scaleY(1)
     }
 }
 
 
 @keyframes move_wave {
     0% {
-        transform: translateX(0) translateZ(0) scaleY(1)
+        -webkit-transform: translateX(0) translateZ(0) scaleY(1);
+                transform: translateX(0) translateZ(0) scaleY(1)
     }
     50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+        -webkit-transform: translateX(-25%) translateZ(0) scaleY(0.55);
+                transform: translateX(-25%) translateZ(0) scaleY(0.55)
     }
     100% {
-        transform: translateX(-50%) translateZ(0) scaleY(1)
+        -webkit-transform: translateX(-50%) translateZ(0) scaleY(1);
+                transform: translateX(-50%) translateZ(0) scaleY(1)
     }
 }
 .waveWrapper {
@@ -56,6 +64,8 @@ body{
     overflow: hidden;
     height: 100%;
     bottom: -1px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #4287a7), color-stop(80%, #6f6faa));
+    background-image: -o-linear-gradient(bottom, #4287a7 20%, #6f6faa 80%);
     background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
   
 }
@@ -78,7 +88,9 @@ body{
     height: 100%;
     background-repeat: repeat no-repeat;
     background-position: 0 bottom;
-    transform-origin: center bottom;
+    -webkit-transform-origin: center bottom;
+        -ms-transform-origin: center bottom;
+            transform-origin: center bottom;
 }
 .waveTop {
     background-size: 50% 100px;
@@ -115,17 +127,12 @@ body{
     color: rgb(32, 32, 32)!important;
     font-size: 1.2em;
 }
-.openingH{
-    padding: 0.2rem;
-}
+
 .contact{
    text-decoration: none!important;
    color: rgb(32, 32, 32);
+  margin: 0.5rem;
 }
-.openingH{
-    color: rgb(32, 32, 32);
-}
-
 
 
 
@@ -219,9 +226,15 @@ body{
 }
 
 .cards2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;  
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;  
 }
 
 .card{
@@ -230,9 +243,12 @@ body{
     width: 16rem;
   height: 16rem;
   background-color: rgba(235, 235, 235, 0.158); 
-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
+-webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+        box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
 border: none;
-align-items: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 text-align: center;
  
 }
@@ -241,7 +257,8 @@ text-align: center;
     width: 18rem;
     height: 18rem;
     background-color: rgba(235, 235, 235, 0.589); 
-    box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+            box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
     
 }
 
@@ -253,7 +270,8 @@ text-align: center;
     margin-top:3rem;
  border-radius: 50%;
  background-color: rgba(255, 255, 255, 0.966); 
- box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
+ -webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+         box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
  width: 8rem;
 margin-bottom: 0.5em;
 
@@ -279,6 +297,8 @@ margin-bottom: 0.5em;
 
 
 .container-background{
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #4287a7), color-stop(80%, #6f6faa));
+    background-image: -o-linear-gradient(bottom, #4287a7 20%, #6f6faa 80%);
     background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
    border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
     z-index: -10;
@@ -323,7 +343,7 @@ margin-bottom: 0.5em;
     height: 600px;
     padding: 100px 0;
     position: relative;
-  margin-top: -1rem;
+  margin-top: -0.5rem;
    margin-bottom: 20px;
 
 }
