@@ -310,7 +310,12 @@ margin-bottom: 0.5em;
     background:#4287a7;
     text-align: center;
     color: rgb(32, 32, 32);
-    margin-bottom: -1rem;
+    margin-top: 2rem;
+  height: 5rem;
+}
+
+.review-text h2{
+    margin-top: -3rem;
 }
 /* Carousel */
 .slider-area{
@@ -318,7 +323,7 @@ margin-bottom: 0.5em;
     height: 600px;
     padding: 100px 0;
     position: relative;
-  
+  margin-top: -1rem;
    margin-bottom: 20px;
 
 }
