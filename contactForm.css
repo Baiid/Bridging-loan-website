@@ -175,6 +175,7 @@ select{
     outline-style: none;
     background-color: rgba(252, 166, 7, 0.918);
     color: white;
+    -webkit-appearance:none;
 
 }
 
