@@ -43,6 +43,19 @@
 
 }
 
+@-webkit-keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:35%
+}
+  100%{
+      left: 50%;
+  }
+}
+
 @keyframes house {
     
   0%{
@@ -71,8 +84,7 @@
   margin-top: 4rem;
   width: 8rem;
 height: 8rem;
-background-color: rgba(235, 235, 235, 0.158);
--webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+background-color: rgba(235, 235, 235, 0.158); 
 box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
 border: none;
 align-items: center;
@@ -83,8 +95,7 @@ text-align: center;
 
   width: 10rem;
   height: 10rem;
-  background-color: rgba(235, 235, 235, 0.589);
-  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+  background-color: rgba(235, 235, 235, 0.589); 
   box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
   
 }
@@ -95,8 +106,7 @@ text-align: center;
   padding: 1.1rem;
   margin-top:1rem;
 border-radius: 50%;
-background-color: rgba(255, 255, 255, 0.966);
--webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+background-color: rgba(255, 255, 255, 0.966); 
 box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
 width: 4rem;
 margin-bottom: 0.5em;
@@ -140,8 +150,7 @@ margin-left: 1rem;
   position: initial!important;
   top: 0;
   right: 0;
-  background-color: white;
-  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11); 
+  background-color: white; 
   box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
   padding: 0.5rem;
   min-width:0rem;
@@ -197,8 +206,7 @@ margin-left: 1rem;
   padding: 0.4rem;
   margin-bottom: 1rem;
   border-radius: 4rem;
-  border-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(100, 96, 96, 0.11); 
+  border-color: rgba(255, 255, 255, 0); 
   box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
   
   
@@ -305,6 +313,19 @@ margin-top: 3rem!important;
 
 }
 
+@-webkit-keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:35%
+}
+  100%{
+      left: 50%;
+  }
+}
+
 @keyframes house {
     
   0%{
@@ -334,8 +355,7 @@ margin-top: 3rem!important;
   margin-bottom: 4rem;
   width: 12rem;
 height: 12rem;
-background-color: rgba(235, 235, 235, 0.158);
--webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+background-color: rgba(235, 235, 235, 0.158); 
 box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
 border: none;
 align-items: center;
@@ -346,8 +366,7 @@ text-align: center;
 
   width: 14rem;
   height: 14rem;
-  background-color: rgba(235, 235, 235, 0.589);
-  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+  background-color: rgba(235, 235, 235, 0.589); 
   box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
   
 }
@@ -358,8 +377,7 @@ text-align: center;
   padding: 1.1rem;
   margin-top:3rem;
 border-radius: 50%;
-background-color: rgba(255, 255, 255, 0.966);
--webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+background-color: rgba(255, 255, 255, 0.966); 
 box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
 width: 4rem;
 margin-bottom: 0.5em;
@@ -403,8 +421,7 @@ margin-left: 1rem!important;
   top: 0;
   right: 2rem;
 
-  background-color: white;
-  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11); 
+  background-color: white; 
   box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
   padding: 0.6rem;
   max-width: 25rem;
@@ -461,8 +478,7 @@ margin-left: 1rem!important;
   padding: 0.4rem;
   margin-bottom: 1rem;
   border-radius: 4rem;
-  border-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(100, 96, 96, 0.11); 
+  border-color: rgba(255, 255, 255, 0); 
   box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
   
   
@@ -542,6 +558,21 @@ letter-spacing: 0.2px;
 
 
 
+@-webkit-keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:35%
+}
+  100%{
+      left: 55%;
+  }
+} 
+
+
+
 @keyframes house {
     
   0%{
@@ -603,6 +634,19 @@ letter-spacing: 0.2px;
 
 }
 
+@-webkit-keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:40%
+}
+  100%{
+      left: 60%;
+  }
+}
+
 @keyframes house {
     
   0%{
@@ -632,8 +676,7 @@ letter-spacing: 0.2px;
   margin-bottom: 4rem;
   width: 12rem;
 height: 12rem;
-background-color: rgba(235, 235, 235, 0.158);
--webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+background-color: rgba(235, 235, 235, 0.158); 
 box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
 border: none;
 align-items: center;
@@ -644,8 +687,7 @@ text-align: center;
 
   width: 14rem;
   height: 14rem;
-  background-color: rgba(235, 235, 235, 0.589);
-  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+  background-color: rgba(235, 235, 235, 0.589); 
   box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
   
 }
@@ -656,8 +698,7 @@ text-align: center;
   padding: 1.1rem;
   margin-top:3rem;
 border-radius: 50%;
-background-color: rgba(255, 255, 255, 0.966);
--webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+background-color: rgba(255, 255, 255, 0.966); 
 box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
 width: 4rem;
 margin-bottom: 0.5em;
@@ -696,8 +737,7 @@ margin-left: 0rem!important;
   top: 0;
   right: 2rem;
 
-  background-color: white;
-  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11); 
+  background-color: white; 
   box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
   padding: 0.6rem;
   max-width: 25rem;
@@ -754,8 +794,7 @@ margin-left: 0rem!important;
   padding: 0.4rem;
   margin-bottom: 1rem;
   border-radius: 4rem;
-  border-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(100, 96, 96, 0.11); 
+  border-color: rgba(255, 255, 255, 0); 
   box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
   
   
@@ -865,6 +904,19 @@ letter-spacing: 0.2px;
 
 }
 
+@-webkit-keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:40%
+}
+  100%{
+      left: 60%;
+  }
+}
+
 @keyframes house {
     
   0%{
@@ -894,8 +946,7 @@ letter-spacing: 0.2px;
   margin-bottom: 4rem;
   width: 12rem;
 height: 12rem;
-background-color: rgba(235, 235, 235, 0.158);
--webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+background-color: rgba(235, 235, 235, 0.158); 
 box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
 border: none;
 align-items: center;
@@ -906,8 +957,7 @@ text-align: center;
 
   width: 14rem;
   height: 14rem;
-  background-color: rgba(235, 235, 235, 0.589);
-  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+  background-color: rgba(235, 235, 235, 0.589); 
   box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
   
 }
@@ -918,8 +968,7 @@ text-align: center;
   padding: 1.1rem;
   margin-top:3rem;
 border-radius: 50%;
-background-color: rgba(255, 255, 255, 0.966);
--webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+background-color: rgba(255, 255, 255, 0.966); 
 box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
 width: 4rem;
 margin-bottom: 0.5em;
@@ -958,8 +1007,7 @@ margin-left: 0rem!important;
   top: 0;
   right: 8rem;
 
-  background-color: white;
-  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11); 
+  background-color: white; 
   box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
   padding: 1.5rem;
   max-width: 30rem;
@@ -1017,8 +1065,7 @@ margin-left: 0rem!important;
   padding: 0.4rem;
   margin-bottom: 1rem;
   border-radius: 4rem;
-  border-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(100, 96, 96, 0.11); 
+  border-color: rgba(255, 255, 255, 0); 
   box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
   
   

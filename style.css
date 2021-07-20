@@ -16,6 +16,19 @@ body{
 /* Animation wave background start*/
 
 
+@-webkit-keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+
+
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
@@ -80,13 +93,15 @@ body{
     background-size: 50% 120px;
 }
 .waveAnimation .waveMiddle {
-    animation: move_wave 10s linear infinite;
+    -webkit-animation: move_wave 10s linear infinite;
+            animation: move_wave 10s linear infinite;
 }
 .waveBottom {
     background-size: 50% 100px;
 }
 .waveAnimation .waveBottom {
-    animation: move_wave 15s linear infinite;
+    -webkit-animation: move_wave 15s linear infinite;
+            animation: move_wave 15s linear infinite;
 }
 
 /* Animation wave background end*/
@@ -153,11 +168,26 @@ body{
 .houseAnimation{
     background-color: transparent;
     width: 30rem;
-    animation: house forwards;
+    -webkit-animation: house forwards;
+            animation: house forwards;
     position: absolute;
-    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
 
 
+}
+
+@-webkit-keyframes house {
+    
+    0%{
+        left: 100%;
+    }
+  50%{
+      left:50%
+  }
+    100%{
+        left: 60%;
+    }
 }
 
 @keyframes house {
@@ -199,8 +229,7 @@ body{
     margin-bottom: 6rem;
     width: 16rem;
   height: 16rem;
-  background-color: rgba(235, 235, 235, 0.158);
-  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+  background-color: rgba(235, 235, 235, 0.158); 
 box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
 border: none;
 align-items: center;
@@ -211,8 +240,7 @@ text-align: center;
 
     width: 18rem;
     height: 18rem;
-    background-color: rgba(235, 235, 235, 0.589);
-    -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+    background-color: rgba(235, 235, 235, 0.589); 
     box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
     
 }
@@ -224,8 +252,7 @@ text-align: center;
     padding: 2rem;
     margin-top:3rem;
  border-radius: 50%;
- background-color: rgba(255, 255, 255, 0.966);
- -webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+ background-color: rgba(255, 255, 255, 0.966); 
  box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
  width: 8rem;
 margin-bottom: 0.5em;
@@ -262,7 +289,9 @@ margin-bottom: 0.5em;
 .container-text-left h3{
     font-size: 2em;
     margin-top: 20rem;  
-margin-left: 10rem; 
+    width: 40%;
+    margin-left: 5rem;
+
 }
 .container-text-left h3 span{
     color: white;
@@ -280,7 +309,8 @@ margin-left: 10rem;
     text-align: center;
     background:#4287a7;
     text-align: center;
-    color: rgb(32, 32, 32)
+    color: rgb(32, 32, 32);
+    margin-bottom: -1rem;
 }
 /* Carousel */
 .slider-area{
@@ -288,7 +318,7 @@ margin-left: 10rem;
     height: 600px;
     padding: 100px 0;
     position: relative;
-   margin: -10px;
+  
    margin-bottom: 20px;
 
 }
