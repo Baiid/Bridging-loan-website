@@ -1,0 +1,1090 @@
+
+
+/* Media Q 100-426 */
+@media  only screen and (max-width: 426px) and (min-width:100px){ 
+
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .buttons button{
+      padding: 0.4rem;
+      color: white;
+      background-color: rgba(252, 166, 7, 0.918);
+      border-color: none;
+      border-radius: 0.2rem;
+      border: none;
+      width: 8rem;
+      margin-top: 1rem;
+  }
+  
+
+  .textLeft{
+    width: 40%;
+   margin-top: 2rem;
+   padding: 0;
+
+  
+}
+
+.textLeft p{
+    font-size: 0.5em;
+
+}
+
+.houseAnimation{
+  width: 9rem;
+  background-color: transparent;
+  margin-top: 5rem;
+  margin-right: 3rem;
+
+
+}
+
+@keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:35%
+}
+  100%{
+      left: 50%;
+  }
+}
+
+
+.text-about{
+  text-align: center;
+  margin-top: 12rem;
+  padding: 1rem;
+ 
+}
+.text-about2 h2{
+  font-size: 1rem;
+}
+
+.card{
+  margin-top: 4rem;
+  width: 8rem;
+height: 8rem;
+background-color: rgba(235, 235, 235, 0.158);
+-webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
+border: none;
+align-items: center;
+text-align: center;
+
+}
+.cardBig{
+
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(235, 235, 235, 0.589);
+  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+  box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
+  
+}
+
+.icon{
+  color: #4287a7;
+  font-size: 1.5em;
+  padding: 1.1rem;
+  margin-top:1rem;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.966);
+-webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
+width: 4rem;
+margin-bottom: 0.5em;
+
+}
+
+.card span{
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.container-background{
+  background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+ border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
+  z-index: -10;
+height: 70vh;
+
+}
+
+.container-text-left h3{
+  font-size: 1em;
+  margin-top: 10rem;  
+  width: 30%;
+margin-left: 1rem;
+
+}
+
+
+
+
+
+/* Calculator start */
+
+.container-cont{
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.calCon{
+  position: initial!important;
+  top: 0;
+  right: 0;
+  background-color: white;
+  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11); 
+  box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+  padding: 0.5rem;
+  min-width:0rem;
+  border-radius: 2rem;
+  margin-top: 8rem;
+ margin-left: 0rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.brText h2{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.page{
+
+  font-size: 0.6em;
+  color: rgb(77, 77, 77);
+  text-align: center;
+  padding: .5rem;
+  margin: 1rem;
+
+}
+.details{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* title + Lines between text */
+.title{
+  font-size: 1em;
+  padding: 0.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pound input{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+ font-weight: 400;
+}
+
+.field label{
+  padding: 0.5rem;
+  font-size: 1.2em;
+}
+.field input, .field select{
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  border-radius: 4rem;
+  border-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(100, 96, 96, 0.11); 
+  box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+  
+  
+}
+
+.input{
+  width: 10rem;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+}
+.btns button{
+  padding: 0.6rem;
+  margin: 0.1rem;
+  color: white;
+  background-color: rgba(252, 166, 7, 0.918);
+  border-color: none;
+  border-radius: 4rem;
+  border: none;
+  width: 8rem;
+  
+}
+
+.container-background{
+  background-image: 0;
+ border-radius:0 ;
+  z-index: 0;
+height: 0;
+
+}
+
+.together{
+  background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+  border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
+   z-index: -10;
+ height: 110vh;
+}
+
+
+.container-text-left h3{
+  position: initial;
+  font-size: 1em;
+  margin-top: 1rem!important;  
+  width: 100%;
+margin-top: 3rem!important;
+
+}
+
+.container-text-left h3 span{
+  color: white;
+ 
+}
+
+
+
+
+}
+
+
+
+/* Media Q 426.1-688 */
+@media only screen and (max-width: 688px) and (min-width:426.1px) { 
+
+
+
+
+  .buttons{
+    display: inline-block;
+
+   
+  }
+  .buttons button{
+      padding: 0.4rem;
+      color: white;
+      background-color: rgba(252, 166, 7, 0.918);
+      border-color: none;
+      border-radius: 0.2rem;
+      border: none;
+      width: 8rem;
+      margin-top: 1rem;
+  }
+  
+
+  .textLeft{
+    width: 40%;
+   margin-top: 2rem;
+   padding: 0;
+
+  
+}
+
+.textLeft p{
+    font-size: 0.7em;
+
+}
+
+.houseAnimation{
+  width: 14rem;
+  background-color: transparent;
+  margin-top: 2rem;
+  margin-right: 4rem;
+
+
+}
+
+@keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:35%
+}
+  100%{
+      left: 50%;
+  }
+}
+
+
+.text-about{
+  text-align: center;
+  margin-top: 15rem;
+  padding: 1rem;
+ 
+}
+.text-about2 h2{
+  font-size: 1rem;
+}
+
+.card{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 12rem;
+height: 12rem;
+background-color: rgba(235, 235, 235, 0.158);
+-webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
+border: none;
+align-items: center;
+text-align: center;
+
+}
+.cardBig{
+
+  width: 14rem;
+  height: 14rem;
+  background-color: rgba(235, 235, 235, 0.589);
+  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+  box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
+  
+}
+
+.icon{
+  color: #4287a7;
+  font-size: 1.5em;
+  padding: 1.1rem;
+  margin-top:3rem;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.966);
+-webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
+width: 4rem;
+margin-bottom: 0.5em;
+
+}
+
+.card span{
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.container-background{
+  background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+ border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
+  z-index: -10;
+height: 70vh;
+
+}
+
+
+.container-text-left h3{
+  position: initial;
+  
+  font-size: 1em;
+  margin-top: 1rem!important;  
+  width: 100%;
+margin-left: 1rem!important;
+
+}
+
+
+
+
+
+/* Calculator start */
+
+
+
+.calCon{
+  position: absolute;
+  top: 0;
+  right: 2rem;
+
+  background-color: white;
+  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11); 
+  box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+  padding: 0.6rem;
+  max-width: 25rem;
+  
+  border-radius: 2rem;
+  margin-top: 8rem;
+ margin-left: 0rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.brText h2{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.page{
+
+  font-size: 0.6em;
+  color: rgb(77, 77, 77);
+  text-align: center;
+  padding: 0rem;
+  margin: 1rem;
+
+}
+.details{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* title + Lines between text */
+.title{
+  font-size: 1em;
+  padding: 0.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pound input{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+ font-weight: 400;
+}
+
+.field label{
+  padding: 0.5rem;
+  font-size: 1.2em;
+}
+.field input, .field select{
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  border-radius: 4rem;
+  border-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(100, 96, 96, 0.11); 
+  box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+  
+  
+}
+
+.input{
+  width: 10rem;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+}
+.btns button{
+  padding: 0.6rem;
+  margin: 0.1rem;
+  color: white;
+  background-color: rgba(252, 166, 7, 0.918);
+  border-color: none;
+  border-radius: 4rem;
+  border: none;
+  width: 8rem;
+  
+}
+
+.container-background{
+  background-image: 0;
+ border-radius:0 ;
+  z-index: 0;
+height: 0;
+
+}
+
+.together{
+  background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+  border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
+   z-index: -10;
+ height: 100vh;
+}
+
+
+.container-text-left h3{
+  font-size: 1em;
+  text-align: left;
+  padding: 1rem;
+  margin-top: 16rem;  
+  width: 100%;
+margin-left: 0rem;
+letter-spacing: 0.2px;
+
+
+
+}
+
+.container-text-left h3 span{
+  color: white;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* Media Q 578.1-688 only keyframes for the house */
+@media only screen and (max-width: 688px) and (min-width:578.1px) { 
+
+
+
+@keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:35%
+}
+  100%{
+      left: 55%;
+  }
+}
+}
+
+
+
+/* Media Q 688.1-992.98 */
+@media only screen and (max-width: 992.98px) and (min-width:688.1px) { 
+
+
+
+
+  .buttons{
+    display: inline-block;
+
+   
+  }
+  .buttons button{
+      padding: 0.4rem;
+      color: white;
+      background-color: rgba(252, 166, 7, 0.918);
+      border-color: none;
+      border-radius: 0.2rem;
+      border: none;
+      width: 8rem;
+      margin-top: 1rem;
+  }
+  
+
+  .textLeft{
+    width: 40%;
+   margin-top: 2rem;
+   padding: 0;
+
+  
+}
+
+.textLeft p{
+    font-size: 0.7em;
+
+}
+
+.houseAnimation{
+  width: 16rem;
+  background-color: transparent;
+  margin-top: 2rem;
+  margin-right: 4rem;
+
+
+}
+
+@keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:40%
+}
+  100%{
+      left: 60%;
+  }
+}
+
+
+.text-about{
+  text-align: center;
+  margin-top: 15rem;
+  padding: 1rem;
+ 
+}
+.text-about2 h2{
+  font-size: 1rem;
+}
+
+.card{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 12rem;
+height: 12rem;
+background-color: rgba(235, 235, 235, 0.158);
+-webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
+border: none;
+align-items: center;
+text-align: center;
+
+}
+.cardBig{
+
+  width: 14rem;
+  height: 14rem;
+  background-color: rgba(235, 235, 235, 0.589);
+  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+  box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
+  
+}
+
+.icon{
+  color: #4287a7;
+  font-size: 1.5em;
+  padding: 1.1rem;
+  margin-top:3rem;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.966);
+-webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
+width: 4rem;
+margin-bottom: 0.5em;
+
+}
+
+.card span{
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.container-background{
+  background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+ border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
+  z-index: -10;
+height: 70vh;
+
+}
+
+
+.container-text-left h3{
+  
+    
+  font-size: 1.5em;
+  margin-top: 15rem!important;  
+  width: 50%;
+margin-left: 0rem!important;
+
+}
+/* Calculator start */
+
+
+
+.calCon{
+  position: absolute;
+  top: 0;
+  right: 2rem;
+
+  background-color: white;
+  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11); 
+  box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+  padding: 0.6rem;
+  max-width: 25rem;
+  
+  border-radius: 2rem;
+  margin-top: 8rem;
+ margin-left: 0rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.brText h2{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.page{
+
+  font-size: 0.6em;
+  color: rgb(77, 77, 77);
+  text-align: center;
+  padding: 0rem;
+  margin: 1rem;
+
+}
+.details{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* title + Lines between text */
+.title{
+  font-size: 1em;
+  padding: 0.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pound input{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+ font-weight: 400;
+}
+
+.field label{
+  padding: 0.5rem;
+  font-size: 1.2em;
+}
+.field input, .field select{
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  border-radius: 4rem;
+  border-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(100, 96, 96, 0.11); 
+  box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+  
+  
+}
+
+.input{
+  width: 10rem;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+}
+.btns button{
+  padding: 0.6rem;
+  margin: 0.1rem;
+  color: white;
+  background-color: rgba(252, 166, 7, 0.918);
+  border-color: none;
+  border-radius: 4rem;
+  border: none;
+  width: 8rem;
+  
+}
+
+.container-background{
+  background-image: 0;
+ border-radius:0 ;
+  z-index: 0;
+height: 0;
+
+}
+
+.together{
+  background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+  border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
+   z-index: -10;
+ height: 100vh;
+}
+
+
+.container-text-left h3{
+  font-size: 1.1em;
+  text-align: left;
+  padding: 1rem;
+  margin-top: 16rem;  
+  width: 100%;
+margin-left: 0rem;
+letter-spacing: 0.2px;
+
+
+
+}
+
+.container-text-left h3 span{
+  color: white;
+
+}
+
+
+
+
+}
+
+
+/* Media Q 992.99-1300 */
+@media only screen and (max-width: 1300px) and (min-width:992.99px) { 
+
+
+
+
+  .buttons{
+    display: inline-block;
+
+   
+  }
+  .buttons button{
+      padding: 0.4rem;
+      color: white;
+      background-color: rgba(252, 166, 7, 0.918);
+      border-color: none;
+      border-radius: 0.2rem;
+      border: none;
+      width: 8rem;
+      margin-top: 1rem;
+  }
+  
+
+  .textLeft{
+    width: 40%;
+   margin-top: 2rem;
+   padding: 0;
+
+  
+}
+
+.textLeft p{
+    font-size: 0.7em;
+
+}
+
+.houseAnimation{
+  width: 18rem;
+  background-color: transparent;
+  margin-top: 2rem;
+  margin-right: 4rem;
+
+
+}
+
+@keyframes house {
+    
+  0%{
+      left: 100%;
+  }
+50%{
+    left:40%
+}
+  100%{
+      left: 60%;
+  }
+}
+
+
+.text-about{
+  text-align: center;
+  margin-top: 15rem;
+  padding: 1rem;
+ 
+}
+.text-about2 h2{
+  font-size: 1rem;
+}
+
+.card{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 12rem;
+height: 12rem;
+background-color: rgba(235, 235, 235, 0.158);
+-webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
+border: none;
+align-items: center;
+text-align: center;
+
+}
+.cardBig{
+
+  width: 14rem;
+  height: 14rem;
+  background-color: rgba(235, 235, 235, 0.589);
+  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+  box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
+  
+}
+
+.icon{
+  color: #4287a7;
+  font-size: 1.5em;
+  padding: 1.1rem;
+  margin-top:3rem;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.966);
+-webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
+width: 4rem;
+margin-bottom: 0.5em;
+
+}
+
+.card span{
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.container-background{
+  background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+ border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
+  z-index: -10;
+height: 70vh;
+
+}
+
+
+.container-text-left h3{
+  
+    
+  font-size: 1em;
+  margin-top: 15rem!important;  
+  width: 50%;
+margin-left: 0rem!important;
+
+}
+/* Calculator start */
+
+
+
+.calCon{
+  position: absolute;
+  top: 0;
+  right: 8rem;
+
+  background-color: white;
+  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11); 
+  box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+  padding: 1.5rem;
+  max-width: 30rem;
+
+  
+  border-radius: 2rem;
+  margin-top: 8rem;
+ margin-left: 0rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.brText h2{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.page{
+
+  font-size: 0.6em;
+  color: rgb(77, 77, 77);
+  text-align: center;
+  padding: 0rem;
+  margin: 1rem;
+
+}
+.details{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* title + Lines between text */
+.title{
+  font-size: 1em;
+  padding: 0.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pound input{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+ font-weight: 400;
+}
+
+.field label{
+  padding: 0.5rem;
+  font-size: 1.2em;
+}
+.field input, .field select{
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  border-radius: 4rem;
+  border-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: inset 0px 0px 9px 2px rgba(100, 96, 96, 0.11); 
+  box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+  
+  
+}
+
+.input{
+  width: 10rem;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+}
+.btns button{
+  padding: 0.6rem;
+  margin: 0.1rem;
+  color: white;
+  background-color: rgba(252, 166, 7, 0.918);
+  border-color: none;
+  border-radius: 4rem;
+  border: none;
+  width: 8rem;
+  
+}
+
+.container-background{
+  background-image: 0;
+ border-radius:0 ;
+  z-index: 0;
+height: 0;
+
+}
+
+.together{
+  background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+  border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
+   z-index: -10;
+ height: 100vh;
+}
+
+
+.container-text-left h3{
+  font-size: 1.5em;
+  text-align: left;
+  padding: 1rem;
+  margin-top: 16rem;  
+  width: 100%;
+margin-left: 2rem!important;
+letter-spacing: 0.2px;
+
+
+
+}
+
+.container-text-left h3 span{
+  color: white;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+

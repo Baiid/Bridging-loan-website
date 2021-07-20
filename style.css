@@ -1,0 +1,353 @@
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+/* Animation wave background start*/
+
+
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper {
+    z-index:-10;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+    background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+  
+}
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    z-index:-10;
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+
+/* Animation wave background end*/
+
+
+
+
+
+/* quick contact */
+.nav-link{
+    color: rgb(32, 32, 32)!important;
+    font-size: 1.2em;
+}
+.openingH{
+    padding: 0.2rem;
+}
+.contact{
+   text-decoration: none!important;
+   color: rgb(32, 32, 32);
+}
+.openingH{
+    color: rgb(32, 32, 32);
+}
+
+
+
+
+/* Text left next to the animation */
+.textLeft{
+    margin-top: 5rem!important;
+    margin-left: 1rem;
+   margin-top: 5rem;
+   padding: 3rem;
+}
+
+.buttons button{
+    padding: 0.6rem;
+    color: white;
+    background-color: rgba(252, 166, 7, 0.918);
+    border-color: none;
+    border-radius: 0.2rem;
+    border: none;
+    width: 10rem;
+}
+
+
+
+
+/* Animation video house start  */
+
+.row{
+    --bs-gutter-x:none;
+
+}
+.container-animation{
+   
+    height: 50vh;
+}
+
+.houseAnimation-div{
+    margin-left:5rem;
+
+}
+.houseAnimation{
+    background-color: transparent;
+    width: 30rem;
+    animation: house forwards;
+    position: absolute;
+    animation-duration: 2s;
+
+
+}
+
+@keyframes house {
+    
+    0%{
+        left: 100%;
+    }
+  50%{
+      left:50%
+  }
+    100%{
+        left: 60%;
+    }
+}
+/* Animation video house end  */
+
+
+
+
+/* About us */
+
+.text-about{
+    text-align: center;
+    margin-top: 20rem;
+   
+}
+.text-about2 h2{
+    font-size: 1.2rem!important;
+}
+
+.cards2{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.card{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    width: 16rem;
+  height: 16rem;
+  background-color: rgba(235, 235, 235, 0.158);
+  -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09); 
+box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.09);
+border: none;
+align-items: center;
+text-align: center;
+ 
+}
+.cardBig{
+
+    width: 18rem;
+    height: 18rem;
+    background-color: rgba(235, 235, 235, 0.589);
+    -webkit-box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19); 
+    box-shadow: 2px 2px 18px 5px rgba(0,0,0,0.19);
+    
+}
+
+
+.icon{
+    color: #4287a7;
+    font-size: 3.5em;
+    padding: 2rem;
+    margin-top:3rem;
+ border-radius: 50%;
+ background-color: rgba(255, 255, 255, 0.966);
+ -webkit-box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61); 
+ box-shadow: 2px 2px 18px 5px rgba(214, 214, 214, 0.61);
+ width: 8rem;
+margin-bottom: 0.5em;
+
+}
+.card span{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.container-text{
+    margin-top: 10rem;
+  
+}
+.text-hero{
+    text-align: center;
+ 
+}
+
+
+
+
+/* Contact form section background + text  */
+
+
+.container-background{
+    background-image: linear-gradient(to top, #4287a7 20%, #6f6faa 80%);
+   border-radius:0% 100% 100% 0% / 0% 100% 0% 0%  ;
+    z-index: -10;
+  height: 100vh;
+
+}
+
+.container-text-left h3{
+    font-size: 2em;
+    margin-top: 20rem;  
+margin-left: 10rem; 
+}
+.container-text-left h3 span{
+    color: white;
+   
+  }
+.together{
+    position: relative;
+}
+
+
+
+
+/* Reviews text */
+.review-text{
+    text-align: center;
+    background:#4287a7;
+    text-align: center;
+    color: rgb(32, 32, 32)
+}
+/* Carousel */
+.slider-area{
+    background: #4287a7;
+    height: 600px;
+    padding: 100px 0;
+    position: relative;
+   margin: -10px;
+   margin-bottom: 20px;
+
+}
+
+.carousel-control.prev,
+.carousel-control.next{
+    background: transparent;
+
+}
+
+.img-area{
+
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid #4287a7;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.img-area img{
+    width: 100%;
+
+}
+
+.carousel-caption{
+    position: static;
+    padding-bottom: 15px;
+
+}
+
+.carousel-caption h3{
+    font-size: 26px;
+    color: white;
+    margin-bottom: 15px;
+    margin-bottom: 25px;
+}
+.carousel-caption p{
+    font-size: 18px;
+ margin: auto;
+ width: 70%;
+ margin-bottom: 10px;
+
+}
+
+.carousel-indicators{
+    bottom: -35px;
+}
+
+
+
+/* Footer */
+
+.footer-copyright{
+    padding: 20px;
+
+}
+.footer-copyright a{
+
+    text-decoration: none;
+    color: black;
+}

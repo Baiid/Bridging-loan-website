@@ -1,0 +1,195 @@
+/* Calculator start */
+
+
+
+.calCon{
+    position: absolute;
+    top: 0;
+    right: 10rem;
+    background-color: white;
+    -webkit-box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11); 
+    box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+    padding: 2rem;
+    max-width: 35rem;
+    
+    border-radius: 2rem;
+    margin-top: 5rem;
+   margin-left: 45rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.brText h2{
+    color: rgb(32, 32, 32);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+
+
+.page{
+
+   font-size: 1em;
+   color: rgb(32, 32, 32);
+   text-align: center;
+   padding: .5rem;
+   margin: 1rem;
+ 
+}
+.details{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* title + Lines between text */
+.title{
+    font-size: 0.8em;
+    padding: 0.5rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.title:before,.title:after{
+    background-color: rgb(32, 32, 32);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+
+}
+
+.title:before{
+    right: 0.2em;
+    margin-left: -50%;
+   
+}
+.title:after{
+    left: 0.2em;
+    margin-right: -50%;
+}
+
+.field{
+    padding: 0.8rem;
+  
+}
+.field label{
+    padding: 0.5rem;
+}
+.field input, .field select{
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    border-radius: 4rem;
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-box-shadow: inset 0px 0px 9px 2px rgba(100, 96, 96, 0.11); 
+    box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.11);
+    
+    
+}
+.input:focus,.select:focus{
+   outline: none!important;
+ 
+}
+
+.range{
+    width: 20rem;
+
+}
+
+.btns button{
+    padding: 0.6rem;
+    color: white;
+    background-color: rgba(252, 166, 7, 0.918);
+    border-color: none;
+    border-radius: 4rem;
+    border: none;
+    width: 8rem;
+    
+}
+::placeholder{
+    color: rgba(252, 166, 7, 0.918);
+}
+
+.range{
+
+    -webkit-appearance: none;
+    width: 70%;
+    height: 0.1rem;
+    background-color: #eee;
+    margin-top: 1.2rem;
+    border-radius: 0.3rem;
+    outline-color: rgba(252, 166, 7, 0.918);
+
+}
+
+.range::-webkit-slider-thumb{
+
+    -webkit-appearance: none;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background-color: rgba(252, 166, 7, 0.918);
+    cursor: pointer;
+}
+
+
+.range::-moz-range-thumb{
+
+   
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background-color: rgba(252, 166, 7, 0.918);
+    cursor: pointer;
+    border:none
+}
+
+
+.range::-moz-focus-outer{
+    border: 0;
+}
+
+select{
+    outline-style: none;
+    background-color: rgba(252, 166, 7, 0.918);
+    color: white;
+
+}
+
+.page2{
+    display: none;
+}
+.page3{
+    display: none;
+}
+
+/* range input add pound sign */
+
+.pound{
+  display: inline-block;
+   position: relative;
+
+}
+.pound input{
+
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+   font-weight: 400;
+}
+
+.pound:before{
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    color: green;
+    font-size: 1.3rem;
+    content: "£";
+
+}
+
+/* Calculator end */
