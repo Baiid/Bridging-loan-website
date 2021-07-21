@@ -142,8 +142,9 @@ height: 70vh;
 .container-text-left h3{
   font-size: 1em;
   margin-top: 10rem;  
-  width: 30%;
-margin-left: 1rem;
+  width: 10%;
+margin-left: 0rem;
+padding-left: 1rem;
 
 }
 
@@ -1209,7 +1210,7 @@ height: 0;
   text-align: left;
   padding: 1rem;
   margin-top: 16rem;  
-  width: 100%;
+  width: 50%;
 margin-left: 2rem!important;
 letter-spacing: 0.2px;
 
@@ -1220,6 +1221,13 @@ letter-spacing: 0.2px;
 .container-text-left h3 span{
   color: white;
 
+
+
+
+}
+
+.review-text h2{
+  margin-top: -3rem;
 }
 
 }

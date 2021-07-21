@@ -317,7 +317,7 @@ margin-bottom: 0.5em;
     color: white;
    
   }
-.together{
+  .together{
     position: relative;
 }
 
@@ -331,11 +331,11 @@ margin-bottom: 0.5em;
     text-align: center;
     color: rgb(32, 32, 32);
     margin-top: 2rem;
-  height: 5rem;
+  height: 8rem;
 }
 
 .review-text h2{
-    margin-top: -3rem;
+    margin-top: -2.5rem;
 }
 /* Carousel */
 .slider-area{
